@@ -1,9 +1,10 @@
-# Ignorar todo por defecto
-*
 
 # Excepciones: incluir únicamente archivos .tf
 !*.tf
 !.gitignore
+!./s3
+!./ec2
+!./rds
 
 # Opcional: ignorar archivos específicos incluso si son .tfstate u otros generados
 .terraform/
