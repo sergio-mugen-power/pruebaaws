@@ -1,0 +1,12 @@
+# Ignorar todo por defecto
+*
+
+# Excepciones: incluir únicamente archivos .tf
+!*.tf
+!.gitignore
+
+# Opcional: ignorar archivos específicos incluso si son .tfstate u otros generados
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
